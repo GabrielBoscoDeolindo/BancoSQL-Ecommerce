@@ -1,0 +1,107 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding-left: 240px;
+    padding-right: 240px;
+    font-family: system-ui;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin-left: 190px;
+}
+
+.salvar-container{
+    display: flex;
+    width: 625px;
+    justify-content: center;
+}
+
+.salvar-container button{
+    width: 300px;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+form {
+    width: 300px;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#prevBtn, #nextBtn{
+    width: 300px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.navigation button {
+    width: 48%;
+}
+
+.produtos-form{
+    display: fl;
+}
+
+.informacoes-form{
+    display: flex;
+    width: 625px;
+    gap: 25px;
+}
+
+.informacoes2-form{
+    display: flex;
+    gap: 25px;
+}
